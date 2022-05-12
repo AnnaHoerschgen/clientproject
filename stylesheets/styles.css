@@ -1,0 +1,88 @@
+/*
+    Color reference
+    #6f2dbd - french violet
+    #a663cc - amethyst
+    #b298dc - wisteria
+    #605856 - davys grey
+    #080706 - rich black fogra 39
+*/
+
+* {
+    margin: auto;
+    padding: auto;
+    text-align: center;
+}
+
+body {
+    background-color: #b298dc;
+    color: #080706;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav {
+    margin: auto;
+    border: 2pt double #6f2dbd;
+    background-color: #a663cc;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    width: min-content;
+    margin-left: 0%;
+    position: sticky;
+    top: 0;
+}
+
+nav>p {
+    text-align: left;
+    margin-left: 0%;
+    margin-bottom: 12.6%;
+}
+
+nav>img {
+    width: auto;
+    height: 100px;
+    min-width: min-content;
+    min-height: min-content;
+    margin-left: 0%;
+}
+
+li {
+    text-align: left;
+    font-size: small;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+    clear: none;
+}
+
+h1 {
+    font-family: fantasy;
+    font-size: 3em;
+}
+
+h2 {
+    font-family: fantasy;
+}
+
+.carousel .slide>img {
+    scale: initial;
+    margin-bottom: 1%;
+}
+
+.container>img {
+    width: 100%;
+    scale: initial;
+    margin-bottom: 1%;
+    min-width: 300px;
+    max-width: 512px;
+}
+
+footer {
+    bottom: 0;
+    font-size: small;
+}
