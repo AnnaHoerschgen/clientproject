@@ -26,7 +26,7 @@ nav {
     float: left;
     display: flex;
     flex-direction: column;
-    height: max-content;
+    height: auto;
     width: min-content;
     margin-left: 0%;
     position: sticky;
@@ -89,6 +89,7 @@ h2 {
 
 .divider {
     border-top: 5px double #605856;
+    width: 100%;
 }
 
 .container>.divider>img {
@@ -97,6 +98,34 @@ h2 {
     margin-bottom: 1%;
     min-width: 300px;
     max-width: 512px;
+}
+
+a:visited {
+    color: #6f2dbd;
+}
+
+a:hover {
+    color: darkmagenta;
+}
+
+form {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2%;
+    border: 5px double #6f2dbd;
+    border-radius: 2%;
+    background-color: #a663cc;
+}
+
+input {
+    width: 80%;
+    text-align: center;
+}
+
+button {
+    margin-top: 1%;
 }
 
 footer {
